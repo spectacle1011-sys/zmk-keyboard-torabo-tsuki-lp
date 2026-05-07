@@ -29,11 +29,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans   &trans   &trans   &trans                     &trans     &trans        &trans        &trans        &trans        &trans
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                     &kp MINUS  &kp N7        &kp N8        &kp N9        &kp SLASH     &trans
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans  &trans     &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &trans
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &kp EQUAL  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT   &trans
-&trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans     &kp TAB    &trans        &trans        &trans        &kp INT_YEN   &trans
+&trans  &trans  &trans   &trans   &trans   &trans                         &trans     &trans        &trans        &trans        &trans        &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                         &kp MINUS  &kp N7        &kp N8        &kp N9        &kp SLASH     &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans  &trans         &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &kp EQUAL      &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT   &trans
+&trans  &trans  &trans   &trans   &trans   &trans  &trans  &kp BACKSPACE  &kp ENTER  &trans        &trans        &kp DOLLAR    &kp INT_YEN   &trans
             >;
         };
 
@@ -43,17 +43,17 @@
 &trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp PERCENT  &kp LCTRL                  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans
 &trans  &kp AMPERSAND    &kp ASTERISK  &kp GRAVE  &kp TILDE    &kp PIPE   &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans          &trans           &trans  &trans
 &trans  &trans           &trans        &trans     &trans       &trans     &trans  &trans  &kp LESS_THAN         &kp GREATER_THAN       &trans          &trans           &trans  &trans
-&trans  &trans           &trans        &trans     &kp DELETE   &kp TAB    &trans  &trans  &trans                &trans                 &trans          &trans           &trans  &trans
+&trans  &trans           &trans        &trans     &trans       &trans     &trans  &trans  &trans                &trans                 &trans          &trans           &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans        &trans  &trans  &trans     &trans     &trans                  &trans    &trans         &trans        &trans     &trans  &trans
-&bt BT_SEL 0  &trans  &trans  &trans     &trans     &trans                  &kp END   &kp PAGE_DOWN  &kp PAGE_UP   &kp HOME   &trans  &trans
-&bt BT_SEL 1  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&bt BT_SEL 2  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans    &trans         &trans        &trans     &trans  &trans
-&bt BT_SEL 3  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans    &trans         &trans        &trans     &trans  &trans
+&trans        &trans  &trans           &trans  &trans  &trans                     &trans          &trans          &trans        &trans           &trans         &trans
+&bt BT_SEL 0  &trans  &trans           &trans  &trans  &trans                     &mkp MB4        &kp UP_ARROW    &mkp MB5      &kp HOME         &kp PAGE_UP    &trans
+&bt BT_SEL 1  &trans  &kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans     &kp LEFT        &kp DOWN        &kp RIGHT     &kp END          &kp PAGE_DOWN  &trans
+&bt BT_SEL 2  &trans  &trans           &trans  &trans  &trans  &trans  &mkp MB3   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans         &trans
+&bt BT_SEL 3  &trans  &trans           &trans  &trans  &trans  &trans  &mkp RCLK  &mkp LCLK       &trans          &trans        &trans           &trans         &trans
             >;
         };
     };
