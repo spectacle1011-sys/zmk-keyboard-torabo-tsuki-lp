@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // OS設定を日本語キーボードのまま使用するための変換定義
+
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -35,7 +36,7 @@
 
 &mt {
     quick-tap-ms = <400>;
-    tapping-term-ms = <600>;
+    tapping-term-ms = <500>;
 };
 
 / {
@@ -74,11 +75,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans         &trans             &trans     &trans       &trans                     &trans          &trans                &trans                 &trans           &trans  &trans
-&trans  &kp SQT        &kp DOUBLE_QUOTES  &kp TILDE  &kp PERCENT  &kp LCTRL                  &kp LEFT_BRACE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_BRACE  &trans  &trans
-&trans  &kp AMPERSAND  &kp ASTERISK       &kp GRAVE  &kp HASH     &kp PIPE   &trans  &trans  &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &trans  &trans
-&trans  &trans         &trans             &trans     &trans       &trans     &trans  &trans  &trans          &kp LESS_THAN         &kp GREATER_THAN       &trans           &trans  &trans
-&trans  &trans         &trans             &trans     &trans       &trans     &trans  &trans  &trans          &trans                &trans                 &trans           &trans  &trans
+&trans  &trans         &trans             &trans     &trans       &trans                     &trans            &trans                &trans                 &trans             &trans  &trans
+&trans  &kp SQT        &kp DOUBLE_QUOTES  &kp TILDE  &kp PERCENT  &kp LCTRL                  &trans            &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans             &trans  &trans
+&trans  &kp AMPERSAND  &kp ASTERISK       &kp GRAVE  &kp HASH     &kp COLON  &trans  &trans  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans  &trans
+&trans  &trans         &trans             &trans     &trans       &kp PIPE   &trans  &trans  &trans            &kp LESS_THAN         &kp GREATER_THAN       &trans             &trans  &trans
+&trans  &trans         &trans             &trans     &trans       &trans     &trans  &trans  &trans            &trans                &trans                 &trans             &trans  &trans
             >;
         };
 
