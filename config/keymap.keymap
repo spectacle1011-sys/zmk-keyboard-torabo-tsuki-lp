@@ -49,11 +49,11 @@
 
         layer_0 {
             bindings = <
-&trans      &trans     &trans    &trans     &trans       &trans                                       &trans           &trans  &trans     &trans     &trans     &trans
-&kp ESCAPE  &kp Q      &kp W     &kp E      &kp R        &kp T                                        &kp Y            &kp U   &kp I      &kp O      &kp P      &kp EQUAL
-&kp LCTRL   &kp A      &kp S     &kp D      &kp F        &kp G        &trans          &trans          &kp H            &kp J   &kp K      &kp L      &kp MINUS  &kp SQT
-&kp LSHFT   &kp Z      &kp X     &kp C      &kp V        &kp B        &kp HASH        &kp LANGUAGE_2  &kp N            &kp M   &kp COMMA  &kp DOT    &kp SLASH  &kp SEMICOLON
-&kp TAB     &kp LCTRL  &kp LGUI  &mkp LCLK  &lt 3 SPACE  &lt 1 ENTER  &kp LANGUAGE_1  &kp DELETE      &lt 2 BACKSPACE  &trans  &trans     &mkp RCLK  &mkp MB4   &mkp MB5
+&trans      &trans     &trans    &trans        &trans     &trans                                         &trans           &trans  &trans     &trans     &trans     &trans
+&kp ESCAPE  &kp Q      &kp W     &kp E         &kp R      &kp T                                          &kp Y            &kp U   &kp I      &kp O      &kp P      &kp EQUAL
+&kp LCTRL   &kp A      &kp S     &kp D         &kp F      &kp G        &trans            &trans          &kp H            &kp J   &kp K      &kp L      &kp ENTER  &kp SLASH
+&kp LSHFT   &kp Z      &kp X     &kp C         &kp V      &kp B        &kp HASH          &kp LANGUAGE_2  &kp N            &kp M   &kp COMMA  &kp DOT    &kp MINUS  &kp SEMICOLON
+&kp TAB     &kp LCTRL  &kp LGUI  &kp LEFT_ALT  &mkp LCLK  &lt 3 SPACE  &lt 1 LANGUAGE_1  &kp DELETE      &lt 2 BACKSPACE  &trans  &trans     &mkp RCLK  &mkp MB4   &mkp MB5
             >;
         };
 
@@ -82,7 +82,7 @@
 &trans        &trans  &trans           &trans  &trans  &trans                     &trans      &trans          &trans        &trans              &trans            &trans
 &bt BT_SEL 0  &trans  &trans           &trans  &trans  &trans                     &mkp MB5    &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN      &mmv MOVE_RIGHT   &trans
 &bt BT_SEL 1  &trans  &kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans     &mkp MB4    &kp DOWN_ARROW  &kp UP_ARROW  &kp PAGE_DOWN       &kp PAGE_UP       &trans
-&bt BT_SEL 2  &trans  &trans           &trans  &trans  &trans  &trans  &trans     &mkp MB3    &kp LEFT_ARROW  &kp RIGHT     &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &trans
+&bt BT_SEL 2  &trans  &trans           &trans  &trans  &trans  &trans  &trans     &mkp MB3    &kp LEFT_ARROW  &kp RIGHT     &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &trans
 &bt BT_SEL 3  &trans  &trans           &trans  &trans  &trans  &trans  &kp ENTER  &kp DELETE  &trans          &trans        &trans              &trans            &trans
             >;
         };
