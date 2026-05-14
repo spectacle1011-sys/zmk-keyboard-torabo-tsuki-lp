@@ -79,11 +79,11 @@
 
         layer_3 {
             bindings = <
-&trans        &trans  &trans           &trans  &trans  &trans                     &trans      &trans          &trans        &trans              &trans            &trans
-&bt BT_SEL 0  &trans  &trans           &trans  &trans  &trans                     &mkp MB5    &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN      &mmv MOVE_RIGHT   &trans
-&bt BT_SEL 1  &trans  &kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans     &mkp MB4    &kp DOWN_ARROW  &kp UP_ARROW  &kp PAGE_DOWN       &kp PAGE_UP       &trans
-&bt BT_SEL 2  &trans  &trans           &trans  &trans  &trans  &trans  &trans     &mkp MB3    &kp LEFT_ARROW  &kp RIGHT     &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &trans
-&bt BT_SEL 3  &trans  &trans           &trans  &trans  &trans  &trans  &kp ENTER  &kp DELETE  &trans          &trans        &trans              &trans            &trans
+&trans        &trans  &trans           &trans  &trans  &trans                     &trans      &trans          &trans          &trans           &trans              &trans
+&bt BT_SEL 0  &trans  &trans           &trans  &trans  &trans                     &mkp MB5    &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN   &mmv MOVE_RIGHT     &trans
+&bt BT_SEL 1  &trans  &kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans     &mkp MB4    &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp LC(UP_ARROW)    &trans
+&bt BT_SEL 2  &trans  &trans           &trans  &trans  &trans  &trans  &trans     &mkp MB3    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(DOWN_ARROW)  &trans
+&bt BT_SEL 3  &trans  &trans           &trans  &trans  &trans  &trans  &kp ENTER  &kp DELETE  &trans          &trans          &trans           &trans              &trans
             >;
         };
     };
