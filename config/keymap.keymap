@@ -34,7 +34,6 @@
 &mt { quick-tap-ms = <400>; };
 
 / {
-{
     transformers {
         scroll_transform: scroll_transform {
             compatible = "zmk,input-transformer-scroll";
