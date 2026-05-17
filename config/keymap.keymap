@@ -34,6 +34,16 @@
 &mt { quick-tap-ms = <400>; };
 
 / {
+{
+    transformers {
+        scroll_transform: scroll_transform {
+            compatible = "zmk,input-transformer-scroll";
+
+            vertical-scale = <1>;
+            horizontal-scale = <0>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -78,6 +88,8 @@
         };
 
         layer_3 {
+            input-processors = <&scroll_transform>;
+
             bindings = <
 &trans        &trans  &trans           &trans  &trans  &trans                     &trans      &trans          &trans          &trans           &trans              &trans
 &bt BT_SEL 0  &trans  &trans           &trans  &trans  &trans                     &mkp MB5    &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN   &mmv MOVE_RIGHT     &trans
