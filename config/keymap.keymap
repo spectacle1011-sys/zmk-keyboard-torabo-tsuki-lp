@@ -55,7 +55,7 @@
 &kp ESCAPE     &kp Q         &kp W         &kp E      &kp R      &kp T                                            &kp Y            &kp U   &kp I      &kp O           &kp P           &kp AT_SIGN
 &mt LCTRL TAB  &kp A         &kp S         &kp D      &kp F      &kp G        &trans            &trans            &kp H            &kp J   &kp K      &kp L           &kp ENTER       &kp MINUS
 &kp LSHFT      &kp Z         &kp X         &kp C      &kp V      &kp B        &kp B             &kp LANGUAGE_2    &kp N            &kp M   &kp COMMA  &kp DOT         &kp UP_ARROW    &mt RIGHT_SHIFT SLASH
-&kp LCTRL      &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &mkp LCLK  &lt 1 SPACE  &lt 3 LANGUAGE_2  &lt 4 LANGUAGE_1  &lt 2 BACKSPACE  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LCTRL      &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &mkp LCLK  &lt 1 SPACE  &lt 3 LANGUAGE_2  &lt 2 LANGUAGE_1  &lt 4 BACKSPACE  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
@@ -64,18 +64,18 @@
 &trans  &trans           &trans         &trans        &trans          &trans                                &trans        &trans          &trans          &trans           &trans              &trans
 &none   &kp NUMBER_1     &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5                          &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0        &trans
 &none   &kp EXCLAMATION  &kp COLON      &kp HASH      &kp UNDERSCORE  &kp DOUBLE_QUOTES  &trans  &trans     &mkp MB4      &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp LC(UP_ARROW)    &trans
-&none   &trans           &kp SEMICOLON  &kp CARET     &kp ASTERISK    &kp SQT            &trans  &mkp MB5   &mkp MB3      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(DOWN_ARROW)  &trans
+&none   &trans           &kp SEMICOLON  &kp CARET     &kp ASTERISK    &kp SQT            &trans  &mkp MB3   &mkp MB5      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(DOWN_ARROW)  &trans
 &none   &trans           &trans         &trans        &trans          &trans             &trans  &kp ENTER  &kp DELETE    &trans          &trans          &trans           &trans              &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans        &trans  &trans  &trans  &trans  &trans                  &trans  &trans                &trans             &trans                 &trans           &trans
-&bt BT_SEL 0  &none   &none   &none   &none   &trans                  &trans  &kp LEFT_PARENTHESIS  &none              &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN  &trans
-&bt BT_SEL 1  &none   &none   &none   &none   &none   &trans  &trans  &none   &kp LEFT_BRACKET      &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET      &trans           &trans
-&bt BT_SEL 2  &trans  &trans  &trans  &trans  &none   &trans  &trans  &trans  &kp LEFT_BRACE        &kp SQT            &kp RIGHT_BRACE        &trans           &trans
-&bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &trans                &trans             &trans                 &trans           &trans
+&trans        &trans  &trans  &trans  &trans  &trans                  &trans  &trans                &trans             &trans                 &trans  &trans
+&bt BT_SEL 0  &none   &none   &none   &none   &trans                  &trans  &kp LEFT_PARENTHESIS  &none              &kp RIGHT_PARENTHESIS  &none   &kp PRINTSCREEN
+&bt BT_SEL 1  &none   &none   &none   &none   &none   &trans  &trans  &none   &kp LEFT_BRACKET      &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET      &trans  &trans
+&bt BT_SEL 2  &trans  &trans  &trans  &trans  &none   &trans  &trans  &trans  &kp LEFT_BRACE        &kp SQT            &kp RIGHT_BRACE        &trans  &trans
+&bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &trans                &trans             &trans                 &trans  &trans
             >;
         };
 
@@ -84,7 +84,7 @@
 &trans  &trans  &trans   &trans   &trans   &trans                  &trans  &trans        &trans       &trans        &trans        &trans
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                  &trans  &kp SLASH     &kp MINUS    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans  &trans  &trans  &kp ASTERISK  &kp PLUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &tog 3  &trans  &none   &kp DOLLAR    &kp INT_YEN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &none   &trans  &none   &kp DOLLAR    &kp INT_YEN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
 &trans  &trans  &trans   &trans   &trans   &trans  &trans  &none   &none   &trans        &trans       &kp NUMBER_0  &kp PERIOD    &kp ENTER
             >;
         };
